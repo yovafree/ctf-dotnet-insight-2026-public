@@ -39,6 +39,12 @@ Usa ese token en el resto de peticiones: `Authorization: Bearer <token>`.
 La **documentación interactiva** de la API (todos los endpoints, para probarlos) está en
 la raíz de tu instancia: `http://<IP>:<PUERTO>/scalar/v1`.
 
+## ¿Primera vez? Empieza por el ejemplo resuelto
+
+Resolvemos el **reto 1 paso a paso** para que aprendas la mecánica (login, token,
+explorar endpoints): **[EJEMPLO-RESUELTO-RETO-1.md](EJEMPLO-RESUELTO-RETO-1.md)**.
+Los demás retos son tuyos.
+
 ## Herramientas sugeridas
 
 - `curl`, Postman o Insomnia.

@@ -16,6 +16,9 @@ Cobán, presume ser la socia con más ahorros. ¿Podrás confirmar su saldo sin 
 **Pista.** Cuando consultas una cuenta, observa qué dato identifica a esa cuenta en la
 petición. ¿El servidor comprueba que esa cuenta es tuya?
 
+> 📘 Este reto está **resuelto paso a paso** como ejemplo en
+> [EJEMPLO-RESUELTO-RETO-1.md](EJEMPLO-RESUELTO-RETO-1.md).
+
 ---
 
 ## 2. Puerta trasera de administración · 100 pts
