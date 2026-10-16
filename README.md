@@ -5,8 +5,9 @@ API intencionalmente vulnerable — **CardamomoPay**, la billetera digital de un
 cooperativa ficticia de Alta Verapaz — y capturará banderas explotando fallas reales
 del [OWASP API Security Top 10 (2023)](https://owasp.org/API-Security/editions/2023/en/0x00-header/).
 
-Este repositorio contiene **las instrucciones y las pistas** del taller. El código de la
-API no se publica: el reto es atacarla como una caja negra.
+Este repositorio contiene **las instrucciones, las pistas y el código fuente** de la API
+(en [src/](src/)). Puedes atacarla como caja negra contra la instancia de tu equipo, o
+leer el código para entender qué ocurre por dentro.
 
 > ⚠️ Todo ocurre en un entorno controlado creado solo para el taller. Ataca
 > **únicamente la instancia de tu equipo**.
@@ -64,6 +65,19 @@ Los demás retos son tuyos.
 | Ascenso no autorizado | 200 |
 | PIN sin límites | 200 |
 | Mirando hacia adentro *(extra)* | 300 |
+
+## Correr la API en tu máquina (opcional)
+
+Si quieres levantar tu propia copia para experimentar:
+
+```bash
+cd src/CardamomoPay.Api
+dotnet run
+```
+
+Necesitas el SDK de .NET 10. La API queda en `http://localhost:5041` y su documentación
+en `http://localhost:5041/scalar/v1`. Las banderas de tu copia local son de ejemplo
+(`FLAG{demo}`); las reales viven solo en las instancias del taller.
 
 ## Reglas
 
